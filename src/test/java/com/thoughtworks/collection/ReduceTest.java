@@ -63,6 +63,7 @@ public class ReduceTest {
     public void should_get_element_in_middle_position_when_even_size() {
         // 获取偶数数组的中位数
         Integer[] array = new Integer[]{1, 4, 6, 2, 3, 10, 9, 8, 11, 2, 19, 30};
+
         List<Integer> arrayList = Arrays.asList(array);
         Reduce reduce = new Reduce(arrayList);
 

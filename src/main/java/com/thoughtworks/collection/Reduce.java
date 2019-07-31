@@ -52,7 +52,7 @@ public class Reduce {
     }
 
     public boolean isEqual(List<Integer> arrayList) {
-        return this.arrayList.containsAll(arrayList) && arrayList.containsAll(this.arrayList);
+        return this.arrayList.equals(arrayList);
     }
 
 
